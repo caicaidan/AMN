@@ -71,23 +71,21 @@ Test set size: 500 images of 32 X 32
 
 ## Baseline model with code
 ### Prequisete
-• Linux-64
-• Python 3.6
-• PyTorch 1.3.1
-• CPU or NVIDIA GPU + CUDA10 CuDNN7.5
+Linux-64
+Python 3.6
+PyTorch 1.3.1
+CPU or NVIDIA GPU + CUDA10 CuDNN7.5
 ### Installation
-• Create a conda environment and install the required packages:
-• conda create -n <env> python=3.6
-• conda activate <env>
-• pip install -r requirements.txt
-• Clone this repo
-• git clone git@github.com:caicaidan/AMN.git
-• The following structure is expected in the main directory:
-• /sro
-: main directory where all scripts are placed in
-• /data
-: data directory (you have to make data directory alone)
-•./src/checkpoints: results are saved in here
+Create a conda environment and install the required packages:
+	conda create -n <env> python=3.6
+	conda activate <env>
+	pip install -r requirements.txt
+Clone this repo
+	git clone git@github.com:caicaidan/AMN.git
+The following structure is expected in the main directory:
+/src:    main directory where all scripts are placed in
+/data:   data directory (you have to make data directory alone)
+./src/checkpoints: results are saved in here
 
 ### Run Command (Dataset will be downloaded automatically)
 "Python main.py --config ./configs/config_cifar100.yml"
