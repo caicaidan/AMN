@@ -73,6 +73,8 @@ Test set size: 500 images of 32 X 32
 AVG ACC: 73.0560%
 AVG BWT: 0.00% ( There are no changes compared with previous performance )
 
+![Uploading Screenshot 2023-11-06 at 3.39.08 PM.png…]()
+
 
 
 ## 4. Plan of Work and Time Schedule
