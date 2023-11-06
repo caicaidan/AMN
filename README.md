@@ -63,9 +63,16 @@ There is another file, called batches.meta.txt. This is an ASCII file that maps 
 You can also manually download the dataset through the link below
 https://www.cs.toronto.edu/~kriz/cifar.html
 
+##  The size of the dataset
+Training set size: 2125 images of 32 X 32
+Validation set size: 375 images of 32 X 32
+Train + Val set size: 2500 images of 32 X 32
+Test set size: 500 images of 32 X 32
+
 ## Baseline Performance
 AVG ACC: 73.0560%
 AVG BWT: 0.00% ( There are no changes compared with previous performance )
+
 
 
 ## 4. Plan of Work and Time Schedule
