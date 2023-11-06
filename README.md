@@ -63,6 +63,10 @@ There is another file, called batches.meta.txt. This is an ASCII file that maps 
 You can also manually download the dataset through the link below
 https://www.cs.toronto.edu/~kriz/cifar.html
 
+## Baseline Performance
+AVG ACC: 73.0560%
+AVG BWT: 0.00% ( There are no changes compared with previous performance )
+
 
 ## 4. Plan of Work and Time Schedule
 	23/10/29 project 1 presentaltion
