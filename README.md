@@ -1,5 +1,5 @@
 # 1. Title: Adaptive Memory Networks: Learning Online from Non-Stationary Data Streams in Class-Incremental Scenarios
-
+#### Presentation link: https://drive.google.com/file/d/1TZ0ChImedXlzyq4qJeFOTW6V7oeg3cxD/view?usp=drive_link
 ## 2. Introduction 	
 ### Motivation and Goal
 When training data arrives sequentially in the online multi-task learning method, due to the differences in data distribution between the source domain data and the target domain data, although Transfer Learning technology can be used to transfer knowledge from the source domain to the target domain, it can also lead to catastrophic forgetting and other issues. Catastrophic forgetting of data can significantly degrade the performance of deep models. Inspired by the structure of human memory, we propose an Adaptive Memory Networks for Class-Incremental Learning model based on memory replay to address the problem of catastrophic forgetting. Human memory consists of short-term memory and long-term memory. The primary component of long-term memory helps humans remember past experiences and facts. Additionally, memory not only holds specific memories but also common memories that shared similarities between tasks . 
